@@ -13,3 +13,4 @@ jobs:
       - uses: helaili/jekyll-action@2.0.1
         env:
           token: ${{ secrets.GITHUB_TOKEN }}
+          keep_files: [CNAME]
